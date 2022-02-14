@@ -13,7 +13,6 @@ public class InvoiceGenerator {
         double totalFare=distance*MINIMUM_COST_PER_KM+time*COST_PER_TIME;
         return totalFare < MINIMUM_FARE ? MINIMUM_FARE : totalFare;
     }
-
     /**
      * calculate fare for multiple rides
      * @param rides
