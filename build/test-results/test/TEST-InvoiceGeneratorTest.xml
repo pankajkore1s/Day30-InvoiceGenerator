@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InvoiceGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-15T07:58:04" hostname="DESKTOP-7O2OJUS" time="0.061">
+<testsuite name="InvoiceGeneratorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-15T08:35:37" hostname="DESKTOP-7O2OJUS" time="0.056">
   <properties/>
-  <testcase name="givenUserIdReturnTheInvoice()" classname="InvoiceGeneratorTest" time="0.043"/>
+  <testcase name="givenUserIdReturnTheInvoice()" classname="InvoiceGeneratorTest" time="0.036"/>
   <testcase name="ReturnTotalRidesTotalFareAndAverageFarePerRide()" classname="InvoiceGeneratorTest" time="0.002"/>
-  <testcase name="givenLessDistanceOrTimeShouldReturnMinFare()" classname="InvoiceGeneratorTest" time="0.002"/>
+  <testcase name="addingPremiumAndNormalRide()" classname="InvoiceGeneratorTest" time="0.002"/>
+  <testcase name="givenLessDistanceOrTimeShouldReturnMinFare()" classname="InvoiceGeneratorTest" time="0.003"/>
   <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="InvoiceGeneratorTest" time="0.001"/>
-  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.005"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
