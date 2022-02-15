@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InvoiceGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-14T14:19:41" hostname="DESKTOP-7O2OJUS" time="0.165">
+<testsuite name="InvoiceGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-15T07:58:04" hostname="DESKTOP-7O2OJUS" time="0.061">
   <properties/>
-  <testcase name="givenLessDistanceOrTimeShouldReturnMinFare()" classname="InvoiceGeneratorTest" time="0.105"/>
-  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="InvoiceGeneratorTest" time="0.006"/>
-  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.048"/>
+  <testcase name="givenUserIdReturnTheInvoice()" classname="InvoiceGeneratorTest" time="0.043"/>
+  <testcase name="ReturnTotalRidesTotalFareAndAverageFarePerRide()" classname="InvoiceGeneratorTest" time="0.002"/>
+  <testcase name="givenLessDistanceOrTimeShouldReturnMinFare()" classname="InvoiceGeneratorTest" time="0.002"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
